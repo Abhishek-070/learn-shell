@@ -1,4 +1,4 @@
-x="Abhishek"
+x="Abhishekd"
 
 if [ -z $x ]
 then
