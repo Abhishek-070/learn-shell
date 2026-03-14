@@ -1,6 +1,6 @@
 x="Abhishekd"
 
-if [ -z $x ]
+if [ -z "$x" ]
 then
   echo "variable not empty"
 else
