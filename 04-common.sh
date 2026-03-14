@@ -1,8 +1,8 @@
-x="Abhishekd"
+
 
 if [ -z "$x" ]
 then
-  echo "variable not empty"
+  echo "variable empty"
 else
-  echo "variable is empty"
+  echo "variable is not empty"
 fi
