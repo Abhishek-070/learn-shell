@@ -1,8 +1,9 @@
 x=100
 
-if [$x< 200]; then
+if [ ${x} -gt 200 ]; then
   echo "True"
-elseif [$x>50]; then
+elif [ ${x} -lt 50 ]; then
   echo"greater than 50"
-else ;
+else
   echo "N/A"
+fi
