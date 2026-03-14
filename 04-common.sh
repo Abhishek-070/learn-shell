@@ -1,9 +1,9 @@
 x=100
 
-if [ $x -gt 200 ]
+if [ $x -lt 200 ]
 then
   echo "True"
-elif [ $x -lt 50 ]
+elif [ $x -gt 50 ]
 then
   echo"greater than 50"
 else
