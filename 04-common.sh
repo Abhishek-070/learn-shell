@@ -1,11 +1,8 @@
 x=100
 
-if [ $x -lt 200 ]
+if [ -z $x ]
 then
-  echo "True"
-elif [ $x -gt 50 ]
-then
-  echo"greater than 50"
+  echo "variable not empty"
 else
-  echo "N/A"
+  echo "variable is empty"
 fi
